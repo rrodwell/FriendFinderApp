@@ -7,9 +7,9 @@ var config = {
     '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
     '.chosen-select-width'     : {width:"95%"}
 }
-for (var selector in config) {
-    $(selector).chosen(config[selector]);
-}
+// for (var selector in config) {
+//     $(selector).chosen(config[selector]);
+// }
 
 // Capture the form inputs
 $("#submit").on("click", function(){
